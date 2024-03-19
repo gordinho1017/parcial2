@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+form{
+    padding: 20px;
+    box-shadow: 0 0 20px #ccc;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+}
+
+input, select, textarea {
+    margin-bottom: 10px;
+    padding: 8px;
+    width: 100%;
+}
+
+button {
+    background-color: #51D94C;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #429b3c;
+}

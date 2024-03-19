@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: linear-gradient(150deg, #33FFE3 ,  #3B0F48 );
+    height: 100vh;
+}
+
+.Inicio{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background: white;
+    border-radius: 10px;
+       text-align: center;
+}
+
+.Inicio h1{
+    text-align: center;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid silver;
+}
+
+.Inicio form {
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+.Inicio input  {
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16 px;
+    border: none;
+    background: none;
+    outline: none;
+
+}
+.Inicio label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color:  #adadad;
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;
+    transition: 1s;
+}
+.Inicio input:focus~ label,
+.Inicio input:focus~ label{
+    top: -5px;
+    color: #6c3483;
+}
+
+.Contactenos {
+    margin: 30px 0;
+    text-align: center;
+    font-size: 18px;
+    color: black;
+}
